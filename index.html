@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="row justify-content-center">
+        <div class="col-md-8 header">
+            <h1 class="text-uppercase text-center">Where would you like to visit</h1>
+            <form class="text-center">
+                <input type="text" placeholder="Enter city" id="city" autocomplete="off"> <button type="submit" id="submit" class="text-uppercase">Submit</button>
+            </form>
+        </div>
+    </header>
+    <div class="container">
+        <div id="destination"></div>
+        <div><h3 class="text-uppercase">Weather</h3></div>
+        <section id="weather" class="row justify-content-center">
+            <div class="col-md-4"></div>
+        </section>
+        <div><h3 class="text-uppercase">Top Attractions</h3></div>
+        <section id="venue" class="row justify-content-center">
+            <div class="col-md-3"></div>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

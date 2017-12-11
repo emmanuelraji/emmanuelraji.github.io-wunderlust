@@ -1,0 +1,95 @@
+header {
+    height: 500px;
+    background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url( '../images/travel.jpg');
+    background-position: ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    
+}
+
+#city {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+#submit {
+    border: 1px solid #87CEEB;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+}
+
+#submit:hover {
+    background-color: #87CEEB;
+    color: white;
+}
+
+#destination {
+    margin-top: 50px;
+    margin-bottom: -10px; 
+    color: 	#87CEEB;
+}
+
+.weathericon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#weather {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#venue {
+    margin-top: 50px;
+}
+
+.weatherrow {
+    border: 1px solid black;
+    box-shadow: 5px 10px #888888;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.col-md-3 {
+}
+
+.venuerow {
+    border: 1px solid black;
+    box-shadow: 5px 10px #888888;
+    margin-right: 30px;
+    padding: 10px;
+    width: 270px;
+    height: 500px;
+}
+
+.venueimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+.addresstext {
+    color: 	#87CEEB;
+}
+
+
+.container {
+    visibility: hidden;
+}
